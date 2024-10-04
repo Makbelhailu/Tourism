@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Fredoka:wght@300..700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Fredoka", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.home {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  position: relative;
+  background: url("./assets/images/bg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  overflow: hidden;
+  z-index: 1;
+  isolation: isolate;
+  filter: brightness(90%) contrast(150%);
+}
+
+.left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: url("./assets/images/left-mnt 1.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 3;
+  filter: brightness(110%) contrast(100%);
+}
+
+.right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: url("./assets/images/right-mtn 1.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+  filter: brightness(110%) contrast(100%);
+}
+
+.txt * {
+  text-shadow:
+    2px 2px 25px rgba(0, 0, 0, 0.3),
+    4px 4px 20px rgba(0, 0, 0, 0.2),
+    6px 6px 15px rgba(0, 0, 0, 0.1);
+}
