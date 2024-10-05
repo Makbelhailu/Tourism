@@ -49,8 +49,8 @@ const Home = () => {
           </p>
         </div>
       </div>
-      <div className="my-16 mt-24 w-full px-8">
-        <div className="flex w-full grid-cols-2 flex-col-reverse gap-5 lg:grid">
+      <div className="w-full px-8 lg:my-12 lg:mt-24">
+        <div className="flex w-full grid-cols-2 flex-col gap-5 lg:grid">
           <div className="content mt-16 w-full max-lg:text-center xs:px-6 md:px-32 lg:px-8 lg:pr-28">
             <div className="mt-1 flex w-full gap-2 max-lg:justify-center max-lg:pr-12">
               <img src={plane} alt="Plane Icon" />
@@ -78,7 +78,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="side-images-container relative grid w-full grid-cols-11 gap-3 px-5 md:px-20 lg:px-0 lg:pr-10">
+          <div className="side-images-container relative my-14 grid w-full grid-cols-11 gap-3 md:px-20 lg:px-0 lg:pr-10">
             <div className="deep-shadow col-span-4 col-start-3 row-span-2 h-fit w-fit rounded-3xl">
               <img
                 src={mtn}
