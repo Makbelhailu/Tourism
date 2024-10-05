@@ -51,15 +51,15 @@ const Home = () => {
       </div>
       <div className="my-16 mt-24 w-full px-8">
         <div className="flex w-full grid-cols-2 flex-col-reverse gap-5 lg:grid">
-          <div className="content mt-16 w-full px-8 max-lg:text-center lg:pr-28">
-            <div className="mt-1 flex w-full gap-2 max-lg:justify-center">
+          <div className="content mt-16 w-full max-lg:text-center xs:px-6 md:px-32 lg:px-8 lg:pr-28">
+            <div className="mt-1 flex w-full gap-2 max-lg:justify-center max-lg:pr-12">
               <img src={plane} alt="Plane Icon" />
               <p className="home_head relative text-lg font-semibold text-orange">
                 Explore Your Dream
               </p>
             </div>
             <div className="">
-              <h1 className="text-7xl font-extrabold">
+              <h1 className="text-5xl font-extrabold xs:text-6xl sm:text-7xl">
                 Discover The Best Destination In Ethiopia
               </h1>
             </div>

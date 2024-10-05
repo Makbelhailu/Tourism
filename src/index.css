@@ -86,6 +86,26 @@ h1 {
   left: 105%;
   transform: translateY(-50%);
 }
+.about_head::after {
+  content: "";
+  position: absolute;
+  width: 2rem;
+  height: 2px;
+  @apply rounded-full bg-orange;
+  top: 50%;
+  left: 115%;
+  transform: translateY(-50%);
+}
+.about_head::before {
+  content: "";
+  position: absolute;
+  width: 2rem;
+  height: 2px;
+  @apply rounded-full bg-orange;
+  top: 50%;
+  right: 115%;
+  transform: translateY(-50%);
+}
 
 .glass {
   background: rgba(255, 255, 255, 0.25);
