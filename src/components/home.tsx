@@ -40,12 +40,12 @@ const Home = () => {
         ></div>
         <div
           ref={imgRef.current[2]}
-          className="txt absolute left-0 top-[17%] w-full text-center font-extrabold leading-none md:top-[10%]"
+          className="txt absolute left-0 top-[17%] w-full text-center font-extrabold leading-none sm:top-[5%]"
         >
           <p className="text-[3rem] uppercase xs:text-[3.5rem] sm:text-[4rem] md:text-[5rem] lg:text-[7rem]">
             Explore
           </p>
-          <p className="text-[5rem] uppercase xs:text-[5rem] sm:text-[6rem] md:text-[7rem] lg:text-[12rem] xl:text-[14rem] 2xl:text-[15rem]">
+          <p className="text-[4.5rem] uppercase xs:text-[5rem] sm:text-[6rem] md:text-[7rem] lg:text-[11rem] xl:text-[14rem] 2xl:text-[15rem]">
             Ethiopia
           </p>
         </div>
