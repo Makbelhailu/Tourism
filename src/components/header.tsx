@@ -1,6 +1,6 @@
-import React from "react";
 import logo from "../assets/images/logo with name.svg";
 import { Link } from "react-router-dom";
+
 const Header = () => {
   return (
     <div className="flex items-center justify-between px-4 pt-3 xs:px-8 sm:px-16">

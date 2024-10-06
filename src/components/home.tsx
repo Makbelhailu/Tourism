@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from "react";
+import { useRef } from "react";
 import { Link } from "react-router-dom";
 import mtn from "../assets/images/mtn.jpg";
 import sofumar from "../assets/images/sofumar.jpg";

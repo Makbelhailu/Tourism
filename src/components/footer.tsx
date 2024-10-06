@@ -1,6 +1,6 @@
-import React from "react";
 import logo from "../assets/images/logo with name.svg";
 import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <div className="mt-16 grid w-full grid-cols-1 items-center justify-center gap-y-5 bg-secondary py-10 pl-16 max-lg:px-12 max-md:text-center sm:grid-cols-2 lg:grid-cols-4">
