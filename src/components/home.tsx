@@ -28,7 +28,7 @@ const Home = () => {
     <div className="min-w-screen min-h-screen">
       <div
         ref={container}
-        className="home h-[calc(100vh/2)] w-screen text-white md:h-[110vh]"
+        className="home h-[calc(100vh/2)] w-screen text-white lg:h-[110vh]"
       >
         <div
           ref={imgRef.current[0]}
@@ -42,14 +42,14 @@ const Home = () => {
           ref={imgRef.current[2]}
           className="txt absolute left-0 top-[17%] w-full text-center font-extrabold leading-none md:top-[10%]"
         >
-          <p className="text-[3rem] uppercase xs:text-[3.5rem] sm:text-[4rem] md:text-[7rem]">
+          <p className="text-[3rem] uppercase xs:text-[3.5rem] sm:text-[4rem] md:text-[5rem] lg:text-[7rem]">
             Explore
           </p>
-          <p className="text-[5rem] uppercase xs:text-[5rem] sm:text-[6rem] md:text-[11rem] lg:text-[12rem] xl:text-[14rem] 2xl:text-[15rem]">
+          <p className="text-[5rem] uppercase xs:text-[5rem] sm:text-[6rem] md:text-[7rem] lg:text-[12rem] xl:text-[14rem] 2xl:text-[15rem]">
             Ethiopia
           </p>
         </div>
-        <div className="scroll-icon absolute bottom-[7vh] left-0 z-50 hidden w-full flex-col items-center justify-center gap-2 opacity-75 md:flex">
+        <div className="scroll-icon absolute bottom-[7vh] left-0 z-50 hidden w-full flex-col items-center justify-center gap-2 opacity-75 lg:flex">
           <img className="w-6" src={scroll} alt="scroll icons" />
           <p className="!font-['Fredoka'] text-xl font-bold opacity-85">
             Scroll Down
