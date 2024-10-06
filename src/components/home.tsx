@@ -5,6 +5,7 @@ import sofumar from "../assets/images/sofumar.jpg";
 import lalibela from "../assets/images/lalibela.jpg";
 import fasil from "../assets/images/fasil.jpg";
 import plane from "../assets/images/plane icon.svg";
+import scroll from "../assets/images/scroll-icon.svg";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 
@@ -46,6 +47,12 @@ const Home = () => {
           </p>
           <p className="text-[5rem] uppercase xs:text-[5rem] sm:text-[6rem] md:text-[11rem] lg:text-[12rem] xl:text-[14rem] 2xl:text-[15rem]">
             Ethiopia
+          </p>
+        </div>
+        <div className="scroll-icon absolute bottom-[7vh] left-0 z-50 hidden w-full flex-col items-center justify-center gap-2 opacity-75 md:flex">
+          <img className="w-6" src={scroll} alt="scroll icons" />
+          <p className="!font-['Fredoka'] text-xl font-bold opacity-85">
+            Scroll Down
           </p>
         </div>
       </div>

@@ -15,7 +15,7 @@ Check out the live website: [EthioTourism Website](#)
 
 ## Figma Design
 
-View the design prototype: [EthioTourism Figma Design](#)
+View the design prototype: [EthioTourism Figma Design](https://www.figma.com/design/5SAxA96MFwUB42I57QlC0b/Tourism?node-id=0-1&t=I4bs1hm4eC3hpuzv-1)
 
 ## Technologies Used
 
