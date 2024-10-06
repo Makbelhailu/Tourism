@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Header from "./header";
+import Header from "../components/header";
 
 import bunna from "../assets/images/bunna.jpg";
 import monastery from "../assets/images/monastery.jpg";
@@ -9,7 +9,7 @@ const About = () => {
   return (
     <>
       <Header />
-      <div className="my-24 flex w-full grid-cols-2 flex-col items-center justify-center gap-y-5 px-8 lg:grid xl:px-16">
+      <div className="mx-auto my-24 mb-36 flex w-full max-w-[1536px] grid-cols-2 flex-col items-center justify-center gap-y-5 px-8 lg:grid xl:px-16">
         <div className="images-container relative mt-16 h-fit w-fit -translate-x-12 max-sm:scale-75 xs:-translate-x-16 lg:-translate-x-0 lg:scale-75 xl:scale-100">
           <img
             src={bunna}
@@ -44,7 +44,7 @@ const About = () => {
               from breathtaking landscapes to rich cultural heritage.
             </p>
           </div>
-          <div className="labels my-5 flex h-fit items-center gap-4 text-center max-lg:justify-center">
+          <div className="labels my-7 flex h-fit items-center gap-2 text-center max-lg:justify-center md:gap-4">
             <div className="h-full w-40 rounded-xl bg-secondary py-4 lg:w-44">
               <h2 className="text-2xl font-bold">2000+</h2>
               <p className="max-xs:text-xs">Our Explores</p>
