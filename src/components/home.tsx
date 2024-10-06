@@ -49,7 +49,7 @@ const Home = () => {
             Ethiopia
           </p>
         </div>
-        <div className="scroll-icon absolute bottom-[7vh] left-0 z-50 hidden w-full flex-col items-center justify-center gap-2 opacity-75 lg:flex">
+        <div className="scroll-icon absolute bottom-[7vh] left-0 z-50 hidden w-full flex-col items-center justify-center gap-2 opacity-80 lg:flex">
           <img className="w-6" src={scroll} alt="scroll icons" />
           <p className="!font-['Fredoka'] text-xl font-bold opacity-85">
             Scroll Down
