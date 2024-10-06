@@ -11,7 +11,7 @@ EthioTourism is a tourism website designed to showcase the beauty, culture, and 
 
 ## Live Demo
 
-Check out the live website: [EthioTourism Website](#)
+Check out the live website: [EthioTourism Website](https://ethiotourism.vercel.app/)
 
 ## Figma Design
 

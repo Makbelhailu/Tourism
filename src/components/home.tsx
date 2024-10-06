@@ -20,7 +20,7 @@ const Home = () => {
       y: 600,
       duration: 2,
       ease: "power1.out",
-      delay: 1,
+      delay: 2,
     });
   }, [imgRef]);
 
